@@ -1,18 +1,26 @@
 {
-  "name": "{{name}}",
+  "name": "name",
   "version": "0.0.0",
   "description": "WIP - nothing to see here",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "jshint": "^2.5.5",
+    "tap": "^0.4.12",
+    "tape": "^2.14.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jshint lib/*.js && ./node_modules/.bin/tap test/*.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/{{name}}.git"
+    "url": "http://gitlab.rmcloud.com/npm-modules/{{name}}.git"
   },
-  "author": "Mathias Buus (@mafintosh)",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/{{name}}/issues"
+    "url": "http://gitlab.rmcloud.com/npm-modules/{{name}}/issues"
   },
-  "homepage": "https://github.com/mafintosh/{{name}}"
+  "homepage": "http://gitlab.rmcloud.com/npm-modules/{{name}}",
+  "publishConfig": {
+    "registry": "http://npm.rmcloud.com:8123"
+  }
 }
