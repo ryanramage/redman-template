@@ -1,6 +1,6 @@
 {
-  "name": "name",
-  "version": "0.0.0",
+  "name": "{{name}}",
+  "version": "1.0.0",
   "description": "WIP - nothing to see here",
   "main": "index.js",
   "dependencies": {},
