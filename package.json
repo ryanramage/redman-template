@@ -5,12 +5,12 @@
   "main": "./lib/index.js",
   "dependencies": {},
   "devDependencies": {
-    "jshint": "^2.5.5",
+    "standard": "^4.5.4",
     "tap": "^0.4.12",
     "tape": "^2.14.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/jshint lib/*.js && ./node_modules/.bin/tap test/*.js"
+    "test": "standard && ./node_modules/.bin/tap test/*.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,6 @@
   "homepage": "http://gitlab.rmcloud.com/npm-modules/{{name}}",
   "publishConfig": {
     "registry": "http://npm.rmcloud.com:8123"
-  }
+  },
+  "docker-registry": "docker.rmcloud.com"
 }
