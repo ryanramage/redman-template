@@ -2,7 +2,7 @@
 
 IMPORTANT - PLEASE FOLLOW:
 
-https://wiki.redmantech.ca/Development_Department/npm/New_node_module_project_checklist
+https://wiki.rmcloud.com/display/DEV/New+node+module
 
 WIP - nothing to see here
 
