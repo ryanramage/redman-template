@@ -2,6 +2,7 @@
   "name": "{{name}}",
   "version": "1.0.0",
   "description": "WIP - nothing to see here",
+  "bin": "./bin/cli.js",
   "main": "./lib/index.js",
   "dependencies": {},
   "devDependencies": {
