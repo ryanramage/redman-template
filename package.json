@@ -24,5 +24,5 @@
   "publishConfig": {
     "registry": "http://npm.rmcloud.com:8123"
   },
-  "docker-registry": "docker.rmcloud.com"
+  "docker-registry": "docker.rmcloud.com:5000"
 }
